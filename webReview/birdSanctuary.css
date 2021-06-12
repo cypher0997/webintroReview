@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+    background-image: url("newBird2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bird-sanctuary-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    border: 0px solid green;
+    background-color: transparent;
+}
+.logo-bird-sanctuary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    border: 0px solid rgb(45, 110, 140)
+}
+.bird-txt{
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 0px;
+    color: #0c38a7;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.follow-up{
+    color: #42515f;
+    font-weight: bolder;
+}
+.main-content{  
+    min-width: calc(100% - 80px);
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    margin-top: 10px;
+}
+.bird-form{
+    width:50%;
+    padding: 44px 60px;
+    padding-top: 10px;
+    background:rgb(240, 237, 231) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+.form-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0 solid green;
+}
+.label{
+
+    min-width: 140px;
+}
+label{
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+.text{
+    font-size: 14px;
+    color: #000000;
+    opacity: 1;
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+}
+.input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 4px;
+}
+select{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 12px Roboto;
+    letter-spacing: 0px;
+    background-color: transparent;
+}
+.button{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    min-width: 140px;
+    padding: 7px 7px;
+    margin-left: 140px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #9d9696;
+}
+.submitButton{
+    margin-right: 30px;
+    font-weight: bold;
+    color: black;
+}
+@media only screen and (max-width: 960px){
+    .bird-form{
+        width: 85%;
+        padding: 44px 20px;
+    }
+    body{
+        background-size: 100% 100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .bird-form{
+        width: 85%;
+        padding: 44px 20px;
+    }
+    body{
+        background-size: 100% 100%;
+    }
+}

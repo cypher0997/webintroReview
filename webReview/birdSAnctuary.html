@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Sanctuary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="birdSanctuary.css">
+</head>
+<body>
+    <header class="bird-sanctuary-header" >
+        <div class="logo-bird-sanctuary">
+            <img src="newBird1.jpg" width="100px" height="100px" alt=" ">
+            <div style="margin-left: 20px;">
+                <span class="bird-txt">BIRD</span><br>
+                <span class="bird-txt follow-up">SANCTUARY</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <form class="bird-form" action="#">
+            <div class="form-header">
+                ADD  BIRD
+            </div>
+            <div class="row-content">
+                <label for="bird-name" class="label text">Bird Name :</label>
+                <input class="input" type="text" id="bird-name" name="bird-name">
+            </div>
+            <div class="row-content">
+                <label for="bird-id" class="label text">Bird ID :</label>
+                <input class="input" type="text" id="bird-id" name="bird-id">
+            </div>
+            <div class="row-content">
+                <label class="label text" for="bird-traits">Bird Traits</label>
+                <div>
+                    <select id="first-trait" name="first-trait" value="Ability">
+                        <option value="Swimable">Swimable</option>
+                        <option value="Flyable">Flyable</option>
+                    </select>
+                    <select id="second-trait" value="Color">
+                        <option value="Blue">BLue</option>
+                        <option value="Red">Red</option>
+                        <option value="Green">Green</option>
+                        <option value="White">White</option>
+                        <option value="Black">Black</option>
+                    </select>
+                </div>
+            </div>
+            <div class="submit-reset">
+                <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
